@@ -1,7 +1,7 @@
 import { useContext, useState } from "react";
 import { AuthContext } from "../context/AuthContext";
 import { useSnackbar } from "notistack";
-import axios from "axios";
+
 
 export const useSignup = () => {
   const [error, setError] = useState(null);
